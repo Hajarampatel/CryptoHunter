@@ -1,3 +1,6 @@
+// require('dotenv').config();
+console.log("API Key from .env:", process.env.apiKey);
+
 const firebaseConfig = {
     apiKey: "AIzaSyADgNJJSE4WE4-D53NHPlhHoN1AKfLyUiE",
     authDomain: "cryptohunter-d7634.firebaseapp.com",
